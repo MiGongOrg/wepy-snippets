@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<style lang="less"></style>
+
+<template lang="wxml"></template>
+
+<script>
+  import wepy from 'wepy'
+
+  export default class ${1:Page} extends wepy.page {
+    data = {}
+    onLoad () {
+      console.log('onLoad ${1:Page}...')
+    }
+  }
+</script>
+
+]]></content>
+  <tabTrigger>wpy</tabTrigger>
+</snippet>
