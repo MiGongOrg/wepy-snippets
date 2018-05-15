@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<cover-image class="${1}">${2}</cover-image>
+]]></content>
+  <tabTrigger>wcoverimage</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>cover-image</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<cover-view class="${1}">${2}</cover-view>
+]]></content>
+  <tabTrigger>wcoverview</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>cover-view</description>
+</snippet>

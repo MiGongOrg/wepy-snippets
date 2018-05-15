@@ -7,24 +7,23 @@
 <script>
   import wepy from 'wepy'
 
-  export default class ${1:Page} extends wepy.page {
-    // 只在Page实例中存在的配置数据，对应于原生的page.json文件
-    config = {}
-    // 页面所需数据均需在这里声明，用于模板数据绑定
+  export default class ${1:Component} extends wepy.component {
     data = {}
     // 事件处理函数（集中保存在methods对象中）
     methods = {}
+    // 声明组件之间的事件处理函数
+    events = {}
     // 声明页面中将要使用到的组件，或声明组件中所引用的子组件
     components = {}
     // 在 Page 和 Component 共用的生命周期函数
     onLoad () {
-      console.log('onLoad ${1:Page}...')
+      console.log('onLoad ${1:Component}...')
     }
   }
 </script>
 
 ]]></content>
-  <tabTrigger>wpage</tabTrigger>
+  <tabTrigger>wcomponent</tabTrigger>
   <scope>text.html.vue</scope>
-  <description>wepy page</description>
+  <description>wepy component</description>
 </snippet>

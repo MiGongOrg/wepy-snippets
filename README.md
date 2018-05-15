@@ -26,16 +26,19 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 
 ##### WePy
 
-|   命令   |   说明     |
-| ------- | -------   |
-| wpage   | wepy page |
-| wrepeat | repeat    |
+| 命令        | 说明            |
+|------------|----------------|
+| wpage      | wepy page      |
+| wcomponent | wepy component |
+| wrepeat    | wepy repeat    |
 
 ##### 小程序组件
 
-| 命令      | 说明          |
-|----------|--------------|
-| wview    | 视图容器       |
-| wscroll  | 可滚动视图区域  |
-| wswiper  | 滑块视图容器    |
-| wmovable | 可移动的视图容器 |
+| 命令         | 说明          |
+|-------------|--------------|
+| wview       | 视图容器       |
+| wscroll     | 可滚动视图区域  |
+| wswiper     | 滑块视图容器    |
+| wmovable    | 可移动的视图容器 |
+| wcoverview  | 覆盖在原生组件之上的文本视图 |
+| wcoverimage | 覆盖在原生组件之上的图片视图 |
