@@ -5,7 +5,9 @@
   key="${2:index}"
   index="${3:index}"
   item="${4:item}"
-></repeat>
+>${5}</repeat>
 ]]></content>
   <tabTrigger>wrepeat</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>wepy repeat</description>
 </snippet>

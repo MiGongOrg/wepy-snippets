@@ -17,4 +17,6 @@
 
 ]]></content>
   <tabTrigger>wpage</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>wepy page</description>
 </snippet>

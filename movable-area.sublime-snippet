@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+<movable-area scale-area="${1:false}">
+  <movable-view
+    direction="${2:none}"
+    inertia="${3:false}"
+    out-of-bounds="${4:false}"
+    damping="${5:20}"
+    friction="${6:2}"
+    disabled="${7:false}"
+    scale="${8:false}"
+    scale-min="${9:0.5}"
+    scale-max="${10:10}"
+    scale-value="${11:1}"
+  >${12}</movable-view>
+</movable-area>
+]]></content>
+  <tabTrigger>wmovable</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>movable-area & movable-view</description>
+</snippet>

@@ -6,7 +6,9 @@
   hover-stop-propagation="${3:false}"
   hover-start-time="${4:50}"
   hover-stay-time="${5:400}"
-></view>
+>${6}</view>
 ]]></content>
   <tabTrigger>wview</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>view</description>
 </snippet>

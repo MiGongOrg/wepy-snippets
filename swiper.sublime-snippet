@@ -5,7 +5,9 @@
   autoplay="{{autoplay}}"
   interval="{{interval}}"
   duration="{{duration}}"
-></swiper>
+>${1}</swiper>
 ]]></content>
   <tabTrigger>wswiper</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>swiper</description>
 </snippet>

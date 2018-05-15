@@ -1,9 +1,13 @@
 <snippet>
   <content><![CDATA[
-<view
+<scroll-view
   scroll-x="${1:false}"
-  scroll-y="${1:false}"
-></view>
+  scroll-y="${2:false}"
+  scroll-with-animation="${3:false}"
+  enable-back-to-top="${4:false}"
+>${5}</scroll-view>
 ]]></content>
   <tabTrigger>wscroll</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>scroll-view</description>
 </snippet>
