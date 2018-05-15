@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<view
+  scroll-x="${1:false}"
+  scroll-y="${1:false}"
+></view>
+]]></content>
+  <tabTrigger>wswiper</tabTrigger>
+</snippet>

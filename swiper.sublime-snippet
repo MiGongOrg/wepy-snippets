@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<swiper
+  indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}"
+  interval="{{interval}}"
+  duration="{{duration}}"
+></swiper>
+]]></content>
+  <tabTrigger>wswiper</tabTrigger>
+</snippet>

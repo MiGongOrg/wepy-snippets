@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<view
+  class="${1}"
+  hover-class="${2:none}"
+  hover-stop-propagation="${3:false}"
+  hover-start-time="${4:50}"
+  hover-stay-time="${5:400}"
+></view>
+]]></content>
+  <tabTrigger>wswiper</tabTrigger>
+</snippet>
