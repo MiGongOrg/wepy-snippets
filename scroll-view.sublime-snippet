@@ -5,5 +5,5 @@
   scroll-y="${1:false}"
 ></view>
 ]]></content>
-  <tabTrigger>wswiper</tabTrigger>
+  <tabTrigger>wscroll</tabTrigger>
 </snippet>

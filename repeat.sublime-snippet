@@ -1,6 +1,11 @@
 <snippet>
   <content><![CDATA[
-<repeat for="{{${1:list}}}" key="${2:index}" index="${3:index}" item="${4:item}"></repeat>
+<repeat
+  for="{{${1:list}}}"
+  key="${2:index}"
+  index="${3:index}"
+  item="${4:item}"
+></repeat>
 ]]></content>
   <tabTrigger>wrepeat</tabTrigger>
 </snippet>

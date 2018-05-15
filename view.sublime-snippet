@@ -8,5 +8,5 @@
   hover-stay-time="${5:400}"
 ></view>
 ]]></content>
-  <tabTrigger>wswiper</tabTrigger>
+  <tabTrigger>wview</tabTrigger>
 </snippet>
