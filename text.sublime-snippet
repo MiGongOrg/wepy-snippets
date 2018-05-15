@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<text
+  selectable="${1:false}"
+  space="${2:nbsp}"
+  decode="${3:false}"
+>${4}</text>
+]]></content>
+  <tabTrigger>wtext</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>text</description>
+</snippet>

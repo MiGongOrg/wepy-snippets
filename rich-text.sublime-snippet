@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<rich-text nodes="{{${1:nodes}}}"></rich-text>
+]]></content>
+  <tabTrigger>wrichtext</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>rich-text</description>
+</snippet>

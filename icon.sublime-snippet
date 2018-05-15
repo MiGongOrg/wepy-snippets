@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<icon
+  type="${1:success}"
+  size="${2}"
+  color="${3}"
+></icon>
+]]></content>
+  <tabTrigger>wicon</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>icon</description>
+</snippet>

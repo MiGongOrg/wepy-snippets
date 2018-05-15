@@ -4,6 +4,8 @@
 |---------------------------|------------------------------|
 |<img src="./demo/page.gif">|<img src="./demo/movable.gif">|
 
+微信小程序 WePy Sublime 插件，集成部分 WePy 可复用代码块，整合小程序组件并生成代码片段。使用 WePy Snippets 开发小程序将变得更高效。
+
 #### 安装方法
 
 ##### 1.前往指定目录
@@ -40,6 +42,8 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 
 ##### 小程序组件
 
+###### 视图容器
+
 | 命令         | 说明          |
 |-------------|--------------|
 | wview       | 视图容器       |
@@ -48,3 +52,12 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wmovable    | 可移动的视图容器 |
 | wcoverview  | 覆盖在原生组件之上的文本视图 |
 | wcoverimage | 覆盖在原生组件之上的图片视图 |
+
+###### 基础内容
+
+| 命令       | 说明      |
+|-----------|----------|
+| wicon     | Icon 图标 |
+| wtext     | 文本      |
+| wrichtext | 富文本    |
+| wprogress | 进度条    |
