@@ -9,7 +9,7 @@
 
   export default class ${1:Component} extends wepy.component {
     data = {}
-    // 事件处理函数（集中保存在methods对象中）
+    // 事件处理函数（集中保存在 methods 对象中）
     methods = {}
     // 声明组件之间的事件处理函数
     events = {}

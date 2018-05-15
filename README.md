@@ -24,6 +24,12 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 
 > 输入相应命令后按 `Tab`
 
+**注：** 如果没有自动提示，请设置用户配置文件 `Preferences` - `Settings`
+
+```
+"auto_complete_selector": true
+```
+
 ##### WePy
 
 | 命令        | 说明            |
