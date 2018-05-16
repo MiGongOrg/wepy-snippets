@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<picker
+  mode="${1}"
+  value="${2}"
+  range="${3}"
+></picker>
+]]></content>
+  <tabTrigger>wpicker</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>picker</description>
+</snippet>

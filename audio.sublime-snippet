@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<audio
+  id="${1}"
+  src="${2}"
+  loop="${3:false}"
+  controls="${4:false}"
+></audio>
+]]></content>
+  <tabTrigger>waudio</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>audio</description>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<radio-group>
+  <radio
+    value="${1}"
+    checked="${2:false}"
+    disabled="${3:false}"
+  >${4}</radio>
+</radio-group>
+]]></content>
+  <tabTrigger>wradio</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>radio-group & radio</description>
+</snippet>

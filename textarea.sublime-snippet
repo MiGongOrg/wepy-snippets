@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<textarea
+  value="${1}"
+  placeholder="${2}"
+  disabled="${3:false}"
+  maxlength="${4:140}"
+></textarea>
+]]></content>
+  <tabTrigger>wtextarea</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>textarea</description>
+</snippet>

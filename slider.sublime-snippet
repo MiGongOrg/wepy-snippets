@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<slider
+  value="${1}"
+  min="${2:0}"
+  max="${3:100}"
+  step="${4:1}"
+></slider>
+]]></content>
+  <tabTrigger>wslider</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>slider</description>
+</snippet>

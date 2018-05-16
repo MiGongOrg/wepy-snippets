@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+<input
+  value="${1}"
+  type="${2:text}"
+  password="${3:false}"
+  placeholder="${4}"
+  disabled="${5:false}"
+  maxlength="${6:140}"
+  cursor-spacing="${7:0}"
+  confirm-type="${8:done}"
+  confirm-hold="${9:false}"
+  adjust-position="${10:true}"
+></input>
+]]></content>
+  <tabTrigger>winput</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>input</description>
+</snippet>

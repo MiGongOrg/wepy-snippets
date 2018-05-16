@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<form
+  bindsubmit="${1}"
+  bindreset="${2}"
+></form>
+]]></content>
+  <tabTrigger>wform</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>form</description>
+</snippet>

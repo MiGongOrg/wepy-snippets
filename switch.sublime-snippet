@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<switch checked="${1}" type="${2:switch}"></switch>
+]]></content>
+  <tabTrigger>wswitch</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>switch</description>
+</snippet>

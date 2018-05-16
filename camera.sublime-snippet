@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<camera device-position="${1:back}" flash="${2:auto}"></camera>
+]]></content>
+  <tabTrigger>wcamera</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>camera</description>
+</snippet>

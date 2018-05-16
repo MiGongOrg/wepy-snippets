@@ -61,3 +61,38 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wtext     | 文本      |
 | wrichtext | 富文本    |
 | wprogress | 进度条    |
+
+###### 表单组件
+
+| 命令               | 说明      |
+|-------------------|----------|
+| wbutton           | 按钮      |
+| wcheckbox         | 多项选择器 |
+| wform             | form 表单 |
+| winput            | 输入框    |
+| wlabel            | 标签      |
+| wpicker           | 选择器    |
+| wpickerview       | 滚动选择器 |
+| wpickerviewcolumn | 选择列    |
+| wradio            | 单项选择器 |
+| wslider           | 滑动选择器 |
+| wswitch           | 开关选择器 |
+| wtextarea         | 多行输入框 |
+
+###### 导航
+
+| 命令        | 说明    |
+|------------|--------|
+| wnavigator | 页面链接 |
+
+###### 媒体组件
+
+| 命令         | 说明    |
+|-------------|--------|
+| waudio      | 页面链接 |
+| wimage      | 图片    |
+| wvideo      | 视频    |
+| wwcamera    | 系统相机 |
+| wliveplayer | 实时音视频播放 |
+| wlivepusher | 实时音视频录制 |
+

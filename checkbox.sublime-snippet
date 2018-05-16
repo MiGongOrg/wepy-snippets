@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+<checkbox-group>
+  <checkbox
+    value="${2}"
+    disabled="${3:false}"
+    checked="${4:false}"
+    color="${5}"
+  ></checkbox>
+</checkbox-group>
+]]></content>
+  <tabTrigger>wcheckbox</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>checkbox-group & checkbox</description>
+</snippet>

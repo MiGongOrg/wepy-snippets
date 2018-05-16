@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<live-player
+  src="${1}"
+  mode="${2:live}"
+  autoplay="${3:false}"
+  muted="${4:false}"
+></live-player>
+]]></content>
+  <tabTrigger>wliveplayer</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>live-player</description>
+</snippet>

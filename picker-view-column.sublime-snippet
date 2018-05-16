@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<picker-view-column>${1}</picker-view-column>
+]]></content>
+  <tabTrigger>wpickerviewcolumn</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>picker-view-column</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<live-pusher
+  src="${1}"
+  mode="${2:RTC}"
+  autopush="${3:false}"
+  muted="${4:false}"
+></live-pusher>
+]]></content>
+  <tabTrigger>wlivepusher</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>live-pusher</description>
+</snippet>

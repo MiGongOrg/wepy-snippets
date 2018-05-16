@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<label class="${1}"></label>
+]]></content>
+  <tabTrigger>wlabel</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>label</description>
+</snippet>

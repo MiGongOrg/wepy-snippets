@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<video
+  src="${1}"
+  autoplay="${2:false}"
+  loop="${3:false}"
+  muted="${4:false}"
+  controls="${5:true}"
+></video>
+]]></content>
+  <tabTrigger>wvideo</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>video</description>
+</snippet>

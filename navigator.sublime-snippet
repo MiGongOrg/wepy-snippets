@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<navigator
+  url="${1}"
+  open-type="${2:navigate}"
+>${3}</navigator>
+]]></content>
+  <tabTrigger>wnavigator</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>navigator</description>
+</snippet>
