@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+<canvas
+  canvas-id="${1}"
+  disable-scroll="${2:false}"
+></canvas>
+]]></content>
+  <tabTrigger>wcanvas</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>canvas</description>
+</snippet>

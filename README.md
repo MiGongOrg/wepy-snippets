@@ -42,7 +42,7 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 
 ##### 小程序组件
 
-###### 视图容器
+###### 视图容器组件
 
 | 命令         | 说明          |
 |-------------|--------------|
@@ -53,7 +53,7 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wcoverview  | 覆盖在原生组件之上的文本视图 |
 | wcoverimage | 覆盖在原生组件之上的图片视图 |
 
-###### 基础内容
+###### 基础内容组件
 
 | 命令       | 说明      |
 |-----------|----------|
@@ -79,7 +79,7 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wswitch           | 开关选择器 |
 | wtextarea         | 多行输入框 |
 
-###### 导航
+###### 导航组件
 
 | 命令        | 说明    |
 |------------|--------|
@@ -96,3 +96,21 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wliveplayer | 实时音视频播放 |
 | wlivepusher | 实时音视频录制 |
 
+###### 地图组件
+
+| 命令  | 说明 |
+|------|-----|
+| wmap | 地图 |
+
+###### 画布组件
+
+| 命令     | 说明 |
+|---------|-----|
+| wcanvas | 画布 |
+
+###### 开放能力
+
+| 命令       | 说明    |
+|-----------|--------|
+| wopendata | 开放数据 |
+| wwebview  | 网页容器 |

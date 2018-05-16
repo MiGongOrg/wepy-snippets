@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+<web-view src="${1}"></web-view>
+]]></content>
+  <tabTrigger>wwebview</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>web-view</description>
+</snippet>
