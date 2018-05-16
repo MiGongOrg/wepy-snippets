@@ -15,7 +15,7 @@
   >${12}</movable-view>
 </movable-area>
 ]]></content>
-  <tabTrigger>wmovable</tabTrigger>
+  <tabTrigger>wmovableview</tabTrigger>
   <scope>text.html.vue</scope>
   <description>movable-area & movable-view</description>
 </snippet>

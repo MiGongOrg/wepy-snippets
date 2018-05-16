@@ -44,14 +44,14 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 
 ###### 视图容器组件
 
-| 命令         | 说明          |
-|-------------|--------------|
-| wview       | 视图容器       |
-| wscroll     | 可滚动视图区域  |
-| wswiper     | 滑块视图容器    |
-| wmovable    | 可移动的视图容器 |
-| wcoverview  | 覆盖在原生组件之上的文本视图 |
-| wcoverimage | 覆盖在原生组件之上的图片视图 |
+| 命令          | 说明          |
+|--------------|--------------|
+| wview        | 视图容器       |
+| wscrollview  | 可滚动视图区域  |
+| wswiper      | 滑块视图容器    |
+| wmovableview | 可移动的视图容器 |
+| wcoverview   | 覆盖在原生组件之上的文本视图 |
+| wcoverimage  | 覆盖在原生组件之上的图片视图 |
 
 ###### 基础内容组件
 

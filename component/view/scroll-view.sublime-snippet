@@ -7,7 +7,7 @@
   enable-back-to-top="${4:false}"
 >${5}</scroll-view>
 ]]></content>
-  <tabTrigger>wscroll</tabTrigger>
+  <tabTrigger>wscrollview</tabTrigger>
   <scope>text.html.vue</scope>
   <description>scroll-view</description>
 </snippet>
