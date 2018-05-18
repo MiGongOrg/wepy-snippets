@@ -1,10 +1,6 @@
 <snippet>
   <content><![CDATA[
-<map
-  longitude="${1}"
-  latitude="${2}"
-  scale="${3:16}"
-></map>
+<map longitude="${1}" latitude="${2}" scale="${3:16}"></map>
 ]]></content>
   <tabTrigger>wmap</tabTrigger>
   <scope>text.html.vue</scope>

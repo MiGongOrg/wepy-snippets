@@ -1,9 +1,6 @@
 <snippet>
   <content><![CDATA[
-<image
-  src="${1}"
-  mode="${2:scaleToFill}"
-></image>
+<image src="${1}" mode="${2:scaleToFill}"></image>
 ]]></content>
   <tabTrigger>wimage</tabTrigger>
   <scope>text.html.vue</scope>

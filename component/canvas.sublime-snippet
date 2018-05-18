@@ -1,9 +1,6 @@
 <snippet>
   <content><![CDATA[
-<canvas
-  canvas-id="${1}"
-  disable-scroll="${2:false}"
-></canvas>
+<canvas canvas-id="${1}"></canvas>
 ]]></content>
   <tabTrigger>wcanvas</tabTrigger>
   <scope>text.html.vue</scope>

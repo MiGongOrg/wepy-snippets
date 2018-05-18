@@ -6,6 +6,14 @@
 
 微信小程序 WePy Sublime 插件，集成部分 WePy 可复用代码块，整合小程序组件并生成代码片段。使用 WePy Snippets 开发小程序将变得更高效。
 
+#### 在使用之前
+
+> 文件后缀为.wpy，可共用Vue的高亮规则
+
+Linux/Windows/OS X: `Ctrl+Shift+P` or `Cmd+Shift+P`
+
+**Package Control: Install Package** 搜索 `Vue Syntax Highlight`
+
 #### 安装方法
 
 ##### 1.前往指定目录

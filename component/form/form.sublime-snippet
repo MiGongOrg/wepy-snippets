@@ -1,9 +1,6 @@
 <snippet>
   <content><![CDATA[
-<form
-  bindsubmit="${1}"
-  bindreset="${2}"
-></form>
+<form bindsubmit="${1}" bindreset="${2}">${3}</form>
 ]]></content>
   <tabTrigger>wform</tabTrigger>
   <scope>text.html.vue</scope>

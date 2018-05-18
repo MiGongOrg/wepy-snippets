@@ -1,9 +1,6 @@
 <snippet>
   <content><![CDATA[
-<navigator
-  url="${1}"
-  open-type="${2:navigate}"
->${3}</navigator>
+<navigator url="${1}">${2}</navigator>
 ]]></content>
   <tabTrigger>wnavigator</tabTrigger>
   <scope>text.html.vue</scope>

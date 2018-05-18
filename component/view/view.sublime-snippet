@@ -1,12 +1,6 @@
 <snippet>
   <content><![CDATA[
-<view
-  class="${1}"
-  hover-class="${2:none}"
-  hover-stop-propagation="${3:false}"
-  hover-start-time="${4:50}"
-  hover-stay-time="${5:400}"
->${6}</view>
+<view hover-class="${1:none}">${2}</view>
 ]]></content>
   <tabTrigger>wview</tabTrigger>
   <scope>text.html.vue</scope>

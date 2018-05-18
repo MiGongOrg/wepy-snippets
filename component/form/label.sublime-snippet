@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-<label class="${1}"></label>
+<label for="${1}">${2}</label>
 ]]></content>
   <tabTrigger>wlabel</tabTrigger>
   <scope>text.html.vue</scope>

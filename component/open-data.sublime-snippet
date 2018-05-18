@@ -1,10 +1,6 @@
 <snippet>
   <content><![CDATA[
-<open-data
-  type="${1}"
-  open-gid="${2}"
-  lang="${3}"
-></open-data>
+<open-data type="${1}"></open-data>
 ]]></content>
   <tabTrigger>wopendata</tabTrigger>
   <scope>text.html.vue</scope>

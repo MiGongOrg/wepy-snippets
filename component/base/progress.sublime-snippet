@@ -1,12 +1,6 @@
 <snippet>
   <content><![CDATA[
-<progress
-  show-info="${1:false}"
-  stroke-width="${2:6}"
-  color="${3:#09BB07}"
-  active="${4:false}"
-  active-mode="${5:backwards}"
-></progress>
+<progress stroke-width="${2:6}" color="${3:#09BB07}"></progress>
 ]]></content>
   <tabTrigger>wprogress</tabTrigger>
   <scope>text.html.vue</scope>

@@ -1,14 +1,6 @@
 <snippet>
   <content><![CDATA[
-<button
-  plain="${1:false}"
-  disabled="${2:false}"
-  loading="${3:false}"
-  hover-class="${4:button-hover}"
-  hover-stop-propagation="${5:false}"
-  hover-start-time="${6:20}"
-  hover-stay-time="${7:70}"
-></button>
+<button type="${1}" size="${2}">${3}</button>
 ]]></content>
   <tabTrigger>wbutton</tabTrigger>
   <scope>text.html.vue</scope>

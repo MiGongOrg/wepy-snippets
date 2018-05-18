@@ -1,11 +1,6 @@
 <snippet>
   <content><![CDATA[
-<swiper
-  indicator-dots="{{indicatorDots}}"
-  autoplay="{{autoplay}}"
-  interval="{{interval}}"
-  duration="{{duration}}"
->${1}</swiper>
+<swiper>${1}</swiper>
 ]]></content>
   <tabTrigger>wswiper</tabTrigger>
   <scope>text.html.vue</scope>

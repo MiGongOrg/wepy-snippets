@@ -1,12 +1,7 @@
 <snippet>
   <content><![CDATA[
 <checkbox-group>
-  <checkbox
-    value="${2}"
-    disabled="${3:false}"
-    checked="${4:false}"
-    color="${5}"
-  ></checkbox>
+  <checkbox value="${1}" color="${2}"/>
 </checkbox-group>
 ]]></content>
   <tabTrigger>wcheckbox</tabTrigger>
