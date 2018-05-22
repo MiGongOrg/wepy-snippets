@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.onSocketMessage(function(res) {
+  ${1:console.log(res)}
+})
+]]></content>
+  <tabTrigger>wonsocketmessage</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>onSocketMessage</description>
+</snippet>

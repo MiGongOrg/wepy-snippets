@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.connectSocket({
+  url: '${1}'
+})
+]]></content>
+  <tabTrigger>wconnectsocket</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>connectSocket</description>
+</snippet>

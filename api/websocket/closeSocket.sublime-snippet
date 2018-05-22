@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.closeSocket()
+]]></content>
+  <tabTrigger>wclosesocket</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>closeSocket</description>
+</snippet>

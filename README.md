@@ -122,3 +122,23 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 |-----------|--------|
 | wopendata | 开放数据 |
 | wwebview  | 网页容器 |
+
+##### 小程序 API
+
+###### 发起请求
+
+| 命令       | 说明    |
+|-----------|--------|
+| wrequest  | 发起网络请求 |
+
+###### WebSocket
+
+| 命令                | 说明    |
+|--------------------|--------|
+| wconnectsocket     | 创建一个 WebSocket 连接 |
+| wonsocketopen      | 监听 WebSocket 连接打开事件 |
+| wonsocketerror     | 监听 WebSocket 错误 |
+| wsendsocketmessage | 通过 WebSocket 连接发送数据 |
+| wonsocketmessage   | 监听 WebSocket 接收到服务器的消息事件 |
+| wclosesocket       | 关闭 WebSocket 连接 |
+| wonsocketclose     | 监听 WebSocket 关闭 |

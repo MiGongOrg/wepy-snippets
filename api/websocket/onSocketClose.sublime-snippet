@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.onSocketClose(function(res) {
+  ${1:console.log(res)}
+})
+]]></content>
+  <tabTrigger>wonsocketclose</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>onSocketClose</description>
+</snippet>

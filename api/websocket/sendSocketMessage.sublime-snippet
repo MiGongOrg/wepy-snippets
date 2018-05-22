@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+wepy.sendSocketMessage({
+  data: ${1},
+  success: function(res) {
+    ${2:console.log(res)}
+  },
+  fail: function(error) {
+    ${3:console.log(error)}
+  }
+})
+]]></content>
+  <tabTrigger>wsendsocketmessage</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>sendSocketMessage</description>
+</snippet>
