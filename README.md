@@ -222,3 +222,15 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 |--------------------------|--------|
 | wcreateliveplayercontext | 操作对应的 <live-player/> 组件 |
 | wcreateliveplayercontext | 创建并返回 live-pusher 上下文 LivePusherContext 对象 |
+
+
+##### 文件
+
+| 命令               | 说明         |
+|-------------------|-------------|
+| wsavefile         | 保存文件到本地 |
+| wgetfileinfo      | 获取文件信息   |
+| wgetsavedfilelist | 获取本地已保存的文件列表 |
+| wgetsavedfileinfo | 获取本地文件的文件信息 |
+| wremovesavedfile  | 删除本地存储的文件 |
+| wopendocument     | 新开页面打开文档 |

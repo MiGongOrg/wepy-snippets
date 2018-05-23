@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+wepy.getSavedFileInfo({
+  filePath: ${1:''},
+  success: function(res) {
+    ${2:console.log(res)}
+  },
+  fail: function(error) {
+    ${3:console.log(error)}
+  }
+})
+]]></content>
+  <tabTrigger>wgetsavedfileinfo</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>getSavedFileInfo</description>
+</snippet>
