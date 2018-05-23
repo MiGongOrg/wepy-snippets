@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.createLivePusherContext(${1})
+]]></content>
+  <tabTrigger>wcreatelivepushercontext</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>createLivePusherContext</description>
+</snippet>

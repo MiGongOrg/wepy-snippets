@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.createLivePlayerContext('${1}', this)
+]]></content>
+  <tabTrigger>wcreateliveplayercontext</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>createLivePlayerContext</description>
+</snippet>

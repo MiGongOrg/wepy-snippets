@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.createVideoContext('${1}')
+]]></content>
+  <tabTrigger>wcreatevideocontext</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>createVideoContext</description>
+</snippet>

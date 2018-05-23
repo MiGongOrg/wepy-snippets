@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.getBackgroundAudioManager()
+]]></content>
+  <tabTrigger>wgetbackgroundaudiomanager</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>getBackgroundAudioManager</description>
+</snippet>

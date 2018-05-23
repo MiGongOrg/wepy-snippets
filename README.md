@@ -178,3 +178,47 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 ###### 音频播放控制
 
 > `playVoice` `pauseVoice` `stopVoice` 因在 1.6.0 版本开始接口不再维护，未添加
+
+###### 音乐播放控制
+
+> `getBackgroundAudioPlayerState` 等... 因在 1.2.0 版本开始接口不再维护，未添加
+
+###### 背景音频播放管理
+
+| 命令                        | 说明    |
+|----------------------------|--------|
+| wgetbackgroundaudiomanager | 获取全局唯一的背景音频管理器 |
+
+###### 音频组件控制
+
+> `createAudioContext` 因在 1.6.0 版本开始接口不再维护，未添加
+
+| 命令                        | 说明    |
+|--------------------------|--------|
+| wcreateinneraudiocontext | 创建并返回内部 audio 上下文 innerAudioContext 对象 |
+
+###### 视频
+
+| 命令                     | 说明    |
+|-------------------------|--------|
+| wchoosevideo            | 拍摄视频或从手机相册中选视频 |
+| wsavevideotophotosalbum | 保存视频到系统相册 |
+
+###### 视频组件控制
+
+| 命令                 | 说明    |
+|---------------------|--------|
+| wcreatevideocontext | 创建并返回 video 上下文 videoContext 对象 |
+
+###### 相机组件控制
+
+| 命令                  | 说明    |
+|----------------------|--------|
+| wcreatecameracontext | 创建并返回 camera 上下文 cameraContext 对象 |
+
+###### 实时音视频
+
+| 命令                      | 说明    |
+|--------------------------|--------|
+| wcreateliveplayercontext | 操作对应的 <live-player/> 组件 |
+| wcreateliveplayercontext | 创建并返回 live-pusher 上下文 LivePusherContext 对象 |

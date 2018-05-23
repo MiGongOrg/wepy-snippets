@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.createInnerAudioContext()
+]]></content>
+  <tabTrigger>wcreateinneraudiocontext</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>createInnerAudioContext</description>
+</snippet>

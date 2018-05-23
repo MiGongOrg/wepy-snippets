@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.createCameraContext('${1}')
+]]></content>
+  <tabTrigger>wcreatecameracontext</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>createCameraContext</description>
+</snippet>
