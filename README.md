@@ -40,7 +40,7 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 "auto_complete_selector": true
 ```
 
-##### WePy
+#### WePy
 
 | 命令        | 说明            |
 |------------|----------------|
@@ -48,9 +48,9 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wcomponent | wepy component |
 | wrepeat    | wepy repeat    |
 
-##### 小程序组件
+#### 小程序组件
 
-###### 视图容器组件
+##### 视图容器组件
 
 | 命令          | 说明          |
 |--------------|--------------|
@@ -61,7 +61,7 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wcoverview   | 覆盖在原生组件之上的文本视图 |
 | wcoverimage  | 覆盖在原生组件之上的图片视图 |
 
-###### 基础内容组件
+##### 基础内容组件
 
 | 命令       | 说明      |
 |-----------|----------|
@@ -70,7 +70,7 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wrichtext | 富文本    |
 | wprogress | 进度条    |
 
-###### 表单组件
+##### 表单组件
 
 | 命令               | 说明      |
 |-------------------|----------|
@@ -87,13 +87,13 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wswitch           | 开关选择器 |
 | wtextarea         | 多行输入框 |
 
-###### 导航组件
+##### 导航组件
 
 | 命令        | 说明    |
 |------------|--------|
 | wnavigator | 页面链接 |
 
-###### 媒体组件
+##### 媒体组件
 
 | 命令         | 说明    |
 |-------------|--------|
@@ -104,32 +104,41 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wliveplayer | 实时音视频播放 |
 | wlivepusher | 实时音视频录制 |
 
-###### 地图组件
+##### 地图组件
 
 | 命令  | 说明 |
 |------|-----|
 | wmap | 地图 |
 
-###### 画布组件
+##### 画布组件
 
 | 命令     | 说明 |
 |---------|-----|
 | wcanvas | 画布 |
 
-###### 开放能力
+##### 开放能力
 
 | 命令       | 说明    |
 |-----------|--------|
 | wopendata | 开放数据 |
 | wwebview  | 网页容器 |
 
-##### 小程序 API
+#### 小程序 API
+
+##### 网络
 
 ###### 发起请求
 
 | 命令       | 说明    |
 |-----------|--------|
 | wrequest  | 发起网络请求 |
+
+###### 上传、下载
+
+| 命令           | 说明    |
+|---------------|--------|
+| wuploadfile   | 将本地资源上传到开发者服务器 |
+| wdownloadfile | 下载文件资源到本地 |
 
 ###### WebSocket
 
@@ -142,3 +151,30 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wonsocketmessage   | 监听 WebSocket 接收到服务器的消息事件 |
 | wclosesocket       | 关闭 WebSocket 连接 |
 | wonsocketclose     | 监听 WebSocket 关闭 |
+
+
+##### 媒体
+
+###### 图片
+
+| 命令            | 说明    |
+|----------------|--------|
+| wchooseimage   | 从本地相册选择图片或使用相机拍照 |
+| wpreviewimage  | 预览图片 |
+| wgetimageinfo  | 获取图片信息 |
+| wsaveimagetophotosalbum | 保存图片到系统相册 |
+
+###### 录音
+
+> 未添加 `startRecord` `stopRecord` 因在 1.6.0 版本开始接口不再维护，未添加
+
+###### 录音管理
+
+| 命令                 | 说明    |
+|---------------------|--------|
+| wgetrecordermanager | 获取全局唯一的录音管理器 |
+
+
+###### 音频播放控制
+
+> `playVoice` `pauseVoice` `stopVoice` 因在 1.6.0 版本开始接口不再维护，未添加

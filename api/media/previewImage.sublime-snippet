@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+wepy.previewImage({
+  urls: ${1:[]},
+  success: function(res) {
+    ${2:console.log(res)}
+  },
+  fail: function(error) {
+    ${3:console.log(error)}
+  }
+})
+]]></content>
+  <tabTrigger>wpreviewimage</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>previewImage</description>
+</snippet>

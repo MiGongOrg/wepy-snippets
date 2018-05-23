@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+wepy.uploadFile({
+  url: ${1:''},
+  filePath: ${2:''},
+  name: ${3:''},
+  success: function(res) {
+    ${4:console.log(res)}
+  },
+  fail: function(error) {
+    ${5:console.log(error)}
+  }
+})
+]]></content>
+  <tabTrigger>wuploadfile</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>uploadFile</description>
+</snippet>

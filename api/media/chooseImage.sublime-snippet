@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+wepy.chooseImage({
+  count: ${1:1},
+  sizeType: ${2:compressed},
+  sourceType: ${3:album},
+  success: function(res) {
+    ${4:console.log(res)}
+  },
+  fail: function(error) {
+    ${5:console.log(error)}
+  }
+})
+]]></content>
+  <tabTrigger>wchooseimage</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>chooseImage</description>
+</snippet>
