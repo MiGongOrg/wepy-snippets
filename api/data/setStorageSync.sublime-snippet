@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+try {
+  wepy.setStorageSync(${1''}, ${2:''})
+} catch (e) {
+  ${3:console.log(e)}
+}
+]]></content>
+  <tabTrigger>wsetstoragesync</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>setStorageSync</description>
+</snippet>

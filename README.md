@@ -234,3 +234,18 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wgetsavedfileinfo | 获取本地文件的文件信息 |
 | wremovesavedfile  | 删除本地存储的文件 |
 | wopendocument     | 新开页面打开文档 |
+
+##### 数据缓存
+
+| 命令                 | 说明         |
+|---------------------|-------------|
+| wsetstorage         | 异步，将数据存储在本地缓存中 |
+| wsetstoragesync     | 同步，将数据存储在本地缓存中 |
+| wgetstorage         | 异步，获取本地缓存数据 |
+| wgetstoragesync     | 同步，获取本地缓存数据 |
+| wgetstorageinfo     | 异步，获取当前 storage 相关信息 |
+| wgetstorageinfosync | 同步，获取当前 storage 相关信息 |
+| wremovestorage      | 异步，从本地缓存中移除指定 key |
+| wremovestoragesync  | 同步，从本地缓存中移除指定 key |
+| wclearstorage       | 异步，清理本地数据缓存 |
+| wclearstoragesync   | 同步，清理本地数据缓存 |

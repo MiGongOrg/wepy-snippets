@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.clearStorage()
+]]></content>
+  <tabTrigger>wclearstorage</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>clearStorage</description>
+</snippet>

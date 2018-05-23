@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+try {
+  wepy.removeStorageSync(${1:''})
+} catch (e) {
+  ${2:console.log(e)}
+}
+]]></content>
+  <tabTrigger>wremovestoragesync</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>removeStorageSync</description>
+</snippet>

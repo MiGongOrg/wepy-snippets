@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+try {
+  var value = wepy.getStorageSync(${1''})
+  if (value) {
+    ${2:console.log(value)}
+  }
+} catch (e) {
+  ${3:console.log(e)}
+}
+]]></content>
+  <tabTrigger>wgetstoragesync</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>getStorageSync</description>
+</snippet>

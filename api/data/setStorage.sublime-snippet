@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+wepy.setStorage({
+  key: ${1:''},
+  data: ${2:''},
+  success: function(res) {
+    ${3:console.log(res)}
+  },
+  fail: function(error) {
+    ${4:console.log(error)}
+  }
+})
+]]></content>
+  <tabTrigger>wsetstorage</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>setStorage</description>
+</snippet>
