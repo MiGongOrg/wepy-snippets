@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.createMapContext(${1:'mapId'}, this)
+]]></content>
+  <tabTrigger>wcreatemapcontext</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>createMapContext</description>
+</snippet>

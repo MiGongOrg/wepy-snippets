@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+wepy.chooseLocation({
+  success: function(res) {
+    ${1:console.log(res)}
+  },
+  fail: function(error) {
+    ${2:console.log(error)}
+  }
+})
+]]></content>
+  <tabTrigger>wchooselocation</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>chooseLocation</description>
+</snippet>

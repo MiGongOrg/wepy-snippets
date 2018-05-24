@@ -249,3 +249,27 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 | wremovestoragesync  | 同步，从本地缓存中移除指定 key |
 | wclearstorage       | 异步，清理本地数据缓存 |
 | wclearstoragesync   | 同步，清理本地数据缓存 |
+
+
+##### 位置
+
+###### 获取位置
+
+| 命令               | 说明         |
+|-------------------|-------------|
+| wgetlocation      | 获取当前的地理位置、速度 |
+| wchooselocation   | 打开地图选择位置 |
+
+###### 查看位置
+
+| 命令               | 说明         |
+|-------------------|-------------|
+| wopenlocation     | 使用微信内置地图查看位置 |
+| wcreatemapcontext | 创建并返回 map 上下文 mapContext 对象 |
+
+###### 地图组件控制
+
+| 命令               | 说明         |
+|-------------------|-------------|
+| wcreatemapcontext | 创建并返回 map 上下文 mapContext 对象 |
+
