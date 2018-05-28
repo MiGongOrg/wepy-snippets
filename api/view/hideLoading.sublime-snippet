@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.hideLoading()
+]]></content>
+  <tabTrigger>whideloading</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>hideLoading</description>
+</snippet>

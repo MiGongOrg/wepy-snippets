@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.removeTabBarBadge({
+  index: ${1}
+})
+]]></content>
+  <tabTrigger>wremovetabbarbadge</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>removeTabBarBadge</description>
+</snippet>

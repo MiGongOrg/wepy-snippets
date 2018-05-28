@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.showTabBarRedDot({
+  index: ${1}
+})
+]]></content>
+  <tabTrigger>wshowtabbarreddot</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>showTabBarRedDot</description>
+</snippet>

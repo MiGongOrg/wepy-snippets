@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+wepy.setTabBarStyle({
+  color: '${1}',
+  selectedColor: '${2}',
+  backgroundColor: '${3}',
+  borderStyle: '${4}'
+})
+]]></content>
+  <tabTrigger>wsettabbarstyle</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>setTabBarStyle</description>
+</snippet>

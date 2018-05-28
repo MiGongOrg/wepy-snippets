@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.showToast({
+  title: '${1}'
+})
+]]></content>
+  <tabTrigger>wshowtoast</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>showToast</description>
+</snippet>

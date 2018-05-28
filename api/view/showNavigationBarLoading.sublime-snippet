@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.showNavigationBarLoading()
+]]></content>
+  <tabTrigger>wshownavigationbarloading</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>showNavigationBarLoading</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.hideTabBarRedDot({
+  index: ${1}
+})
+]]></content>
+  <tabTrigger>whidetabbarreddot</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>hideTabBarRedDot</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+wepy.setTabBarBadge({
+  index: ${1},
+  text: ${2}
+})
+]]></content>
+  <tabTrigger>wsettabbarbadge</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>setTabBarBadge</description>
+</snippet>

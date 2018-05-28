@@ -367,3 +367,43 @@ git clone https://github.com/MiGongOrg/wepy-snippets.git 'wepy-snippets'
 
 ###### Wi-Fi
 
+##### 界面
+
+###### 交互反馈
+
+| 命令              | 说明              |
+|------------------|----------------- |
+| wshowtoast       | 显示消息提示框 |
+| wshowloading     | 显示 loading 提示框 |
+| whidetoast       | 隐藏消息提示框 |
+| whideloading     | 隐藏 loading 提示框 |
+| wshowmodal       | 显示模态弹窗 |
+| wshowactionsheet | 显示操作菜单 |
+
+###### 设置导航条
+
+| 命令                       | 说明               |
+|---------------------------|------------------ |
+| wsetnavigationbartitle    | 动态设置当前页面的标题 |
+| wshownavigationbarloading | 在当前页面显示导航条加载动画 |
+| whidenavigationbarloading | 隐藏导航条加载动画 |
+| wsetnavigationbarcolor    | 动态设置置导航条样式 |
+
+###### 设置 tabBar
+
+| 命令                | 说明               |
+|--------------------|------------------ |
+| wsettabbarbadge    | 为 tabBar 某一项的右上角添加文本 |
+| wremovetabbarbadge | 移除 tabBar 某一项右上角的文本 |
+| wshowtabbarreddot  | 显示 tabBar 某一项的右上角的红点 |
+| whidetabbarreddot  | 隐藏 tabBar 某一项的右上角的红点 |
+| wsettabbarstyle    | 动态设置 tabBar 的整体样式 |
+| wsettabbaritem     | 动态设置 tabBar 某一项的内容 |
+| wshowtabbar        | 显示 tabBar |
+| whidetabbar        | 隐藏 tabBar |
+
+###### 设置置顶信息
+
+| 命令            | 说明               |
+|----------------|------------------ |
+| wsettopbartext | 动态设置置顶栏文字内容 |

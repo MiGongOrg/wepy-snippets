@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+wepy.setTopBarText({
+  text: ${1:''},
+  success: function(res) {
+    ${2:console.log(res)}
+  }
+})
+]]></content>
+  <tabTrigger>wsettopbartext</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>setTopBarText</description>
+</snippet>

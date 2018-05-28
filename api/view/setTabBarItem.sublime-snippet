@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.setTabBarItem({
+  index: ${1}
+})
+]]></content>
+  <tabTrigger>wsettabbaritem</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>setTabBarItem</description>
+</snippet>

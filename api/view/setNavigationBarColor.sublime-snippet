@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+wepy.setNavigationBarColor({
+  frontColor: ${1},
+  backgroundColor: ${2}
+})
+]]></content>
+  <tabTrigger>wsetnavigationbarcolor</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>setNavigationBarColor</description>
+</snippet>

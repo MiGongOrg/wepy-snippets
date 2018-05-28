@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.showLoading({
+  title: '${1}'
+})
+]]></content>
+  <tabTrigger>wshowloading</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>showLoading</description>
+</snippet>

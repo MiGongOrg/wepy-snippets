@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.hideNavigationBarLoading()
+]]></content>
+  <tabTrigger>whidenavigationbarloading</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>hideNavigationBarLoading</description>
+</snippet>

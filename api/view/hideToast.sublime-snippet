@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+wepy.hideToast()
+]]></content>
+  <tabTrigger>whidetoast</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>hideToast</description>
+</snippet>

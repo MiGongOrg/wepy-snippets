@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+wepy.showTabBar({
+  animation: ${1: true},
+  success: function(res) {
+    ${2:console.log(res)}
+  }
+})
+]]></content>
+  <tabTrigger>wshowtabbar</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>showTabBar</description>
+</snippet>

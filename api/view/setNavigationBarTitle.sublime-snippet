@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.setNavigationBarTitle({
+  title: ${1}
+})
+]]></content>
+  <tabTrigger>wsetnavigationbartitle</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>setNavigationBarTitle</description>
+</snippet>

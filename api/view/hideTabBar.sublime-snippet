@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+wepy.hideTabBar({
+  animation: ${1: true},
+  success: function(res) {
+    ${2:console.log(res)}
+  }
+})
+]]></content>
+  <tabTrigger>whidetabbar</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>hideTabBar</description>
+</snippet>

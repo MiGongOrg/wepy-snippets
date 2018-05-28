@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+wepy.showActionSheet({
+  itemList: ${1:[]},
+  success: function(res) {
+    ${2:console.log(res)}
+  }
+})
+]]></content>
+  <tabTrigger>wshowactionsheet</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>showActionSheet</description>
+</snippet>

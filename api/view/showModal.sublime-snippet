@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+wepy.showModal({
+  title: '${1}',
+  contentL '${2}',
+  success: function(res) {
+    if (res.confirm) {
+      ${3:console.log('用户点击了确定')}
+    } else if (res.cancel) {
+      ${4:console.log('用户点击了取消')}
+    }
+  }
+})
+]]></content>
+  <tabTrigger>wshowmodal</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>showModal</description>
+</snippet>
