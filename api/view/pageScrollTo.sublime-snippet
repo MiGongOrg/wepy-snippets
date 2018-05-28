@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.pageScrollTo({
+  scrollTop: ${1}
+})
+]]></content>
+  <tabTrigger>wpagescrollto</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>pageScrollTo</description>
+</snippet>

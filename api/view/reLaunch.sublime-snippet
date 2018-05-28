@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.reLaunch({
+  url: '${1}'
+})
+]]></content>
+  <tabTrigger>wrelaunch</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>reLaunch</description>
+</snippet>

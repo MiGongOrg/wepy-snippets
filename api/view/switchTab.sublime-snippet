@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.switchTab({
+  url: '${1}'
+})
+]]></content>
+  <tabTrigger>wswitchtab</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>switchTab</description>
+</snippet>

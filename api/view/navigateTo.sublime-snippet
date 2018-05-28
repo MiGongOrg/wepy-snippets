@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.navigateTo({
+  url: '${1}'
+})
+]]></content>
+  <tabTrigger>wnavigateto</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>navigateTo</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+wepy.createAnimation({
+  duration: ${1:400},
+  timingFunction: ${2:'linear'},
+  delay: ${3: 0},
+  transformOrigin: ${4:'50% 50% 0'}
+})
+]]></content>
+  <tabTrigger>wcreateanimation</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>createAnimation</description>
+</snippet>

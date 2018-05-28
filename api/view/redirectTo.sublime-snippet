@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.redirectTo({
+  url: '${1}'
+})
+]]></content>
+  <tabTrigger>wredirectto</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>redirectTo</description>
+</snippet>

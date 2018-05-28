@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+wepy.navigateBack({
+  delta: ${1}
+})
+]]></content>
+  <tabTrigger>wnavigateback</tabTrigger>
+  <scope>text.html.vue</scope>
+  <description>navigateBack</description>
+</snippet>
